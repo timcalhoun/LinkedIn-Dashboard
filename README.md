@@ -28,9 +28,12 @@ You have access to all your data within LinkedIn, you just need to request it, w
   * Next select Get a copy of your data
     * Select Download larger data archive, including connections, contacts, account history, and information we infer about you based on your profile and activity.
       * Request Archive (and wait about 24 hours for complete data)
-<img style="display: inline; margin: 0 5px;" title="LinkedIn Data Retrieval" src="img/LinkedIn Data Retreival.png" alt="" width="800" height="300"/>
+<img style="display: inline; margin: 0 5px;" title="LinkedIn Data Retrieval" src="img/LinkedIn Data Retrieval.png" alt="" width="800" height="300"/>
 
-We then switched to looking at our columns data types to get a good understanding of what possible changes we may need to make for our statistical modeling. Here is the recoding we performed:
+## Excel
+To protect the privacy of whom I was messaging, I wanted to grab the first initial of first and last name, versus displaying full name
+* I Googled a how to grab first letter and quick way to add this function to Excel and updated messages csv
+<img style="display: inline; margin: 0 5px;" title="Excel - First & Last name initials" src="img/Excel function.png" alt="" width="800" height="300"/>
 
 * Recoded the following Columns from strings to integers
     * Country.of.Origin
