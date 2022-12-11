@@ -28,19 +28,22 @@ You have access to all your data within LinkedIn, you just need to request it, w
   * Next select Get a copy of your data
     * Select Download larger data archive, including connections, contacts, account history, and information we infer about you based on your profile and activity.
       * Request Archive (and wait about 24 hours for complete data)
+
 <img style="display: inline; margin: 0 5px;" title="LinkedIn Data Retrieval" src="img/LinkedIn Data Retreival.png" alt="" width="800" height="300"/>
 
 ## Excel
 To protect the privacy of whom I was messaging, I wanted to grab the first initial of first and last name, versus displaying full name
 * I Googled a how to grab first letter and quick way to add this function to Excel and updated messages csv
+ 
 <img style="display: inline; margin: 0 5px;" title="Excel - First & Last name initials" src="img/Excel function.png" alt="" width="800" height="300"/>
 
-* Recoded the following Columns from strings to integers
-    * Country.of.Origin
-    * Processing.Method
-* Created a new Column, Region, breaking the countries into 5 regions
-    * Initially there were 4 regions; Africa, Central America, Asia and South America
-    * The 4 regions were skewed since Mexico made Central America disproportionate, so Mexico became its own region
-    * Also recoded Region from string to integer
+## Tableau Desktop
+To pull data into Tableau, under Connect, select file type you are bringing in, for this instance it is a Text file (csv)
+* From the Connections drop-down select New Data Source and you can bring in your other csv files
+  * From there start building your separte worksheets, till you have what you need to put your dashboard together
+  * Click on New Dashboard tab next to the New Worksheet tab and you will see your built worksheets to drag and drop
+    * You will want to make sure you select Floating under the Objects pane so you can place the worksheets where you want in the dashboard
+    * Finally Save As to publish to Tableau Public
 
+<img style="display: inline; margin: 0 5px;" title="Excel - First & Last name initials" src="img/LinkedIn Dashboard.png" alt="" width="800" height="300"/>
 
