@@ -1,4 +1,4 @@
-# LinkedIn-Dashboard
+# Tableau-LinkedIn-Dashboard
 
 [Final Dashboard]( https://public.tableau.com/app/profile/tim8067/viz/LinkenInDashboard/Dashboard1?publish=yes)
 
